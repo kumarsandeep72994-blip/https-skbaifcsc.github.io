@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>बाएफ कृत्रिम गर्भाधान केन्द्र - दमकड़ी</title>
+    <!-- CSS फाइल को लिंक किया गया है -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- हेडर और मेनू बार -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">BAIF CSCDP</div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active" onclick="switchPage(event, 'home')">मुख्य पेज</a></li>
+                    <li><a href="#" onclick="switchPage(event, 'about')">हमारे बारे में</a></li>
+                    <li><a href="#" onclick="switchPage(event, 'services')">सेवाएँ</a></li>
+                    <li><a href="#" onclick="switchPage(event, 'breeds')">नस्लें (Breeds)</a></li>
+                    <li><a href="#" onclick="switchPage(event, 'gallery')">गैलरी</a></li>
+                    <li><a href="#" onclick="switchPage(event, 'contact')">संपर्क करें</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- मुख्य बैनर -->
+    <section class="hero">
+        <div class="hero-box">
+            <h1>बाएफ कृत्रिम गर्भाधान केन्द्र</h1>
+            <h2>प्रायोजक - जिला ग्रामीण विकास अभिकरण</h2>
+            <p>(समेकित स्थायी पशु विकास कार्यक्रम)</p>
+        </div>
+    </section>
+
+    <!-- 1. होम पेज -->
+    <section id="home" class="section active">
+        <div class="container">
+            <h2 class="section-title">केन्द्र की मुख्य जानकारी</h2>
+            <table class="info-table">
+                <tr><td>केन्द्र प्रभारी</td><td>श्री संदीप कुमार</td></tr>
+                <tr><td>केन्द्र का नाम</td><td>दमकड़ी</td></tr>
+                <tr><td>संपर्क सूत्र</td><td><a href="tel:9758966276">9758966276</a></td></tr>
+                <tr><td>ईमेल आईडी</td><td><a href="mailto:kumarsandeep72994@gmail.com">kumarsandeep72994@gmail.com</a></td></tr>
+                <tr><td>आवासीय पता</td><td>ग्राम पटनी, ब्लॉक सरसावा, जिला सहारनपुर</td></tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- 2. हमारे बारे में -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">हमारे बारे में (About Us)</h2>
+            <div class="about-box">
+                <p style="margin-bottom:15px;">हम <strong>BAIF CSCDP (समेकित स्थायी पशु विकास कार्यक्रम)</strong> के अंतर्गत उच्च गुणवत्ता वाली पशु प्रजनन सेवाएँ प्रदान करते हैं।</p>
+                <p>हमारा मुख्य उद्देश्य ग्रामीण क्षेत्रों में उन्नत नस्ल के पशुओं का विकास करना है, जिससे हमारे किसान भाइयों की आय में वृद्धि हो सके और दुग्ध उत्पादन को बढ़ावा मिले।</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. सेवाएँ -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">हमारी सेवाएँ (Our Services)</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>कृत्रिम गर्भाधान (A.I.)</h3>
+                    <p>उच्च गुणवत्ता वाले प्रमाणित सीमन द्वारा गायों और भैंसों का सुरक्षित गर्भाधान।</p>
+                </div>
+                <div class="card">
+                    <h3>नस्ल सुधार कार्यक्रम</h3>
+                    <p>स्थानीय पशुओं की नस्ल को सुधार कर दुग्ध क्षमता बढ़ाना।</p>
+                </div>
+                <div class="card">
+                    <h3>गर्भावस्था जाँच</h3>
+                    <p>पशुओं की समय पर सही और सटीक गर्भ जाँच की सुविधा।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. नस्लें -->
+    <section id="breeds" class="section">
+        <div class="container">
+            <h2 class="section-title">उपलब्ध उन्नत नस्लें (Breeds)</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>गिर (Gir)</h3>
+                    <p>बेहतरीन रोग प्रतिरोधक क्षमता और उच्च दुग्ध उत्पादन वाली भारतीय नस्ल।</p>
+                </div>
+                <div class="card">
+                    <h3>साहीवाल (Sahiwal)</h3>
+                    <p>भारत की सबसे अच्छी दुग्ध उत्पादक देशी गायों में से एक।</p>
+                </div>
+                <div class="card">
+                    <h3>एच.एफ. / जर्सी</h3>
+                    <p>अधिक मात्रा में व्यावसायिक दुग्ध उत्पादन के लिए सबसे लोकप्रिय विदेशी नस्लें।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. गैलरी -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">फोटो गैलरी (Gallery)</h2>
+            <p style="text-align:center; margin-bottom:30px; color:#666;">हमारे केंद्र की कुछ झलकियाँ और स्वस्थ पशु</p>
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <img src="https://unsplash.com" alt="स्वस्थ गाय">
+                    <p class="img-caption">स्वस्थ दुधारू गाय</p>
+                </div>
+                <div class="gallery-card">
+                    <img src="https://unsplash.com" alt="छोटा बछड़ा">
+                    <p class="img-caption">उन्नत नस्ल का बछड़ा</p>
+                </div>
+                <div class="gallery-card">
+                    <img src="https://unsplash.com" alt="डेयरी फार्म">
+                    <p class="img-caption">आधुनिक डेयरी फार्म</p>
+                </div>
+                <div class="gallery-card">
+                    <img src="https://unsplash.com" alt="हरा मैदान और पशु">
+                    <p class="img-caption">पशु स्वास्थ्य और देखरेख</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. संपर्क करें -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">संपर्क करें (Contact Us)</h2>
+            <div class="contact-card">
+                <p class="contact-name">श्री संदीप कुमार</p>
+                <p>📞 फोन: <a href="tel:9758966276" style="text-decoration:none; color:#333;">9758966276</a></p>
+                <p>✉️ ईमेल: <a href="mailto:kumarsandeep72994@gmail.com" style="text-decoration:none; color:#1976d2;">kumarsandeep72994@gmail.com</a></p>
+                <p style="margin-bottom:20px;">📍 पता: ग्राम पटनी, ब्लॉक सरसावा, जिला सहारनपुर (उ.प्र.)</p>
+                <a href="tel:9758966276" class="call-btn">अभी कॉल करें</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 बाएफ कृत्रिम गर्भाधान केन्द्र, दमकड़ी। सर्वाधिकार सुरक्षित।</p>
+    </footer>
+
+    <!-- जावास्क्रिप्ट फाइल को लिंक किया गया है -->
+    <script src="script.js"></script>
+</body>
+</html>
